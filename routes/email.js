@@ -19,6 +19,10 @@ router.post("/send", async (req, res, next) => {
     from: "appskjy@aio.co.id",
   });
   console.log(req.body);
+  let participants = [];
+  req.body.participants.split(",").forEach((element) => {
+    participants.push[{ email: element }];
+  });
   const event = {
     start: [
       req.body.year,
@@ -48,10 +52,7 @@ router.post("/send", async (req, res, next) => {
       },
     ],
     organizer: { name: req.body.organizer[1], email: req.body.organizer[0] },
-  // attendees: [
-  //   { name: 'Adam Gibbons', email: 'adam@example.com', rsvp: true, partstat: 'ACCEPTED', role: 'REQ-PARTICIPANT' },
-  //   { name: 'Brittany Seaton', email: 'brittany@example2.org', dir: 'https://linkedin.com/in/brittanyseaton', role: 'OPT-PARTICIPANT' }
-  // ]
+    attendees: participants,
   };
   let eventIcs;
   ics.createEvent(event, (err, value) => {

@@ -106,10 +106,11 @@ const signin = async (req, res) => {
     // if (hash == user[0].lg_password) {
     //   c.data = 2;
     // }
-
+    console.log(user);
     //if user email is found, compare password with bcrypt
     if (user[0]) {
       let hash = crypto.MD5(password).toString();
+      console.log(hash + " = " + user[0].lg_password);
 
       //if password is the same
       //generate token with the user's id and the secretKey in the env file
