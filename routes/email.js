@@ -52,7 +52,7 @@ router.post("/send", async (req, res, next) => {
       },
     ],
     organizer: { name: req.body.organizer[1], email: req.body.organizer[0] },
-    attendees: participants,
+    // attendees: participants,
   };
   let eventIcs;
   ics.createEvent(event, (err, value) => {

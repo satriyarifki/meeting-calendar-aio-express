@@ -30,7 +30,7 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING,
       },
       online_offline: {
-        type: DataTypes.ENUM(["Offline", "Online"]),
+        type: DataTypes.ENUM(["Offline", "Online","Hybrid"]),
         defaultValue: "Online",
       },
       url_online: {
