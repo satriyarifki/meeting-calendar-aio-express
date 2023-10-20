@@ -31,4 +31,12 @@ module.exports = {
     host: "192.168.9.47",
     dialect: "mysql",
   },
+  ho_mata: {
+    username: "internkjy",
+    password: "internkjy",
+    database: "mata",
+    host: "192.168.1.195",
+    port: "3307",
+    dialect: "mysql",
+  },
 };

@@ -1,0 +1,1900 @@
+<Calendar NextID="206" version="21.0.2" encoding="utf-8" lastModified="2023-10-03T03:39:03.193Z">
+<Event ID="1" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2">
+<Modified>2023-02-24 09:49:09</Modified>
+<iCalUid>231041bcd1404d2b9a6c7c0ea60cd214</iCalUid>
+<Start>2023-02-24 08:30</Start>
+<End>2023-02-24 09:30</End>
+<Subject><![CDATA[Test Calendar]]></Subject>
+<Comment><![CDATA[Test Calendar]]></Comment>
+<Creator><![CDATA[factory.calendar@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+<Location><![CDATA[Test Calendar]]></Location>
+</Event>
+<Event ID="2" Sequence="1" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="15">
+<Modified>2023-03-02 12:51:42</Modified>
+<iCalUid>4919fd0d46124583a724d258c085fbd3</iCalUid>
+<Start>2023-03-08 09:00</Start>
+<End>2023-03-08 15:30</End>
+<Subject><![CDATA[Manufacturing Monthly Meeting March 2023]]></Subject>
+<Categories><![CDATA[MMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+<Attendee Type="0" Invite="1" Sent="1" Status="0">
+<Email><![CDATA["As'ad A. Wahid" <aawahid@aio.co.id>]]></Email>
+</Attendee>
+</Event>
+<Event ID="3" Sequence="0" Priority="1" BusyStatus="0" IntendedBusyStatus="2" AllDay="1">
+<Modified>2023-02-27 02:13:35</Modified>
+<iCalUid>fff930046e1e42738ef6881289da7ba3</iCalUid>
+<Start>2023-03-07 00:00</Start>
+<End>2023-03-07 23:59</End>
+<Subject><![CDATA[Management Meeting ]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="4" Sequence="0" Priority="1" BusyStatus="0" IntendedBusyStatus="2" AllDay="1">
+<Modified>2023-02-27 14:30:24</Modified>
+<iCalUid>3e7fadb3102749ce82e094d976e85fce</iCalUid>
+<Start>2023-03-13 00:00</Start>
+<End>2023-03-13 23:59</End>
+<Subject><![CDATA[FMM - Host Kejayan]]></Subject>
+<Categories><![CDATA[FMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+<Location><![CDATA[KEJAYAN]]></Location>
+</Event>
+<Event ID="5" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2">
+<Modified>2023-03-14 10:33:02</Modified>
+<iCalUid>ab7bfcfa15eb4defb7552b094a774bca</iCalUid>
+<Start>2023-03-15 13:30</Start>
+<End>2023-03-15 15:00</End>
+<Subject><![CDATA[Monthly Sharing Session (MSS)]]></Subject>
+<Categories><![CDATA[MSS]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="6" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2">
+<Modified>2023-02-27 14:27:06</Modified>
+<iCalUid>4a6f2ed0205c44af8488f9ff1e5694d7</iCalUid>
+<Start>2023-03-16 09:00</Start>
+<End>2023-03-16 10:30</End>
+<Subject><![CDATA[CRP Meeting]]></Subject>
+<Categories><![CDATA[CRP]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="7" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="15">
+<Modified>2023-07-17 11:00:29</Modified>
+<iCalUid>cf15d3ab4b6b4d4b9297fe6d9af6229e</iCalUid>
+<Start>2023-01-03 15:30</Start>
+<End>2023-01-03 17:00</End>
+<Subject><![CDATA[RAKOR]]></Subject>
+<Comment><![CDATA[M1 up]]></Comment>
+<Categories><![CDATA[rakor]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+<Recurrence Type="2" SubType="1" Interval="1" DayOfWeekMask="20">
+<Start>2023-01-03 15:30</Start>
+<End>4500-08-31 00:00</End>
+<Deleted Occurrence="2023-04-11 00:00"/>
+<Deleted Occurrence="2023-05-18 00:00"/>
+<Deleted Occurrence="2023-08-17 00:00"/>
+<Changed Occurrence="2023-04-13 00:00">
+<Start>2023-04-13 14:00</Start>
+<End>2023-04-13 15:30</End>
+</Changed>
+<TimeZone Bias="-420"/>
+</Recurrence>
+</Event>
+<Event ID="8" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2">
+<Modified>2023-02-27 14:29:21</Modified>
+<iCalUid>22c4d4acaf7e48bcb9342a448898c725</iCalUid>
+<Start>2023-03-17 09:00</Start>
+<End>2023-03-17 11:00</End>
+<Subject><![CDATA[ENERGY Meeting]]></Subject>
+<Categories><![CDATA[ENERGY]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="9" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2">
+<Modified>2023-03-14 10:33:17</Modified>
+<iCalUid>c0b06080fe8d4acfb992e25eeb63ed32</iCalUid>
+<Start>2023-03-21 13:30</Start>
+<End>2023-03-21 15:00</End>
+<Subject><![CDATA[Monthly Sharing Session (MSS)]]></Subject>
+<Categories><![CDATA[MSS]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="10" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 02:36:23</Modified>
+<iCalUid>c0efae7a9ea94a72a8e77de438bbe8b5</iCalUid>
+<Start>2023-03-23 13:15</Start>
+<End>2023-03-23 15:15</End>
+<Subject><![CDATA[Quality Review KJY]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="11" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 02:37:11</Modified>
+<iCalUid>6041d89e054b4043966b43a0c53ca0af</iCalUid>
+<Start>2023-03-24 13:30</Start>
+<End>2023-03-24 15:30</End>
+<Subject><![CDATA[QM RMPM]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="12" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 14:52:11</Modified>
+<iCalUid>f3bb8737ecb8486dbd18a60fa97cdff6</iCalUid>
+<Start>2023-04-05 08:30</Start>
+<End>2023-04-05 15:00</End>
+<Subject><![CDATA[Manufacturing Monthly Meeting (MMM)]]></Subject>
+<Categories><![CDATA[MMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="14" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" AllDay="1" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 14:36:39</Modified>
+<iCalUid>9827611815ad4b9baf5017244efa2f96</iCalUid>
+<Start>2023-04-11 00:00</Start>
+<End>2023-04-11 23:59</End>
+<Subject><![CDATA[FMM]]></Subject>
+<Categories><![CDATA[FMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="15" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-04-06 11:21:23</Modified>
+<iCalUid>de349ce716ea4bf4b364d93b7d983690</iCalUid>
+<Start>2023-04-14 08:00</Start>
+<End>2023-04-14 10:00</End>
+<Subject><![CDATA[CRP Meeting]]></Subject>
+<Categories><![CDATA[CRP]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="16" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-03-20 10:22:19</Modified>
+<iCalUid>245078d39c85422c8e122a1ecd62112d</iCalUid>
+<Start>2023-04-17 08:00</Start>
+<End>2023-04-17 10:00</End>
+<Subject><![CDATA[ENERGY Meeting]]></Subject>
+<Categories><![CDATA[ENERGY]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="17" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-03-20 10:23:28</Modified>
+<iCalUid>dba80a0ec7a849cdb63aac4111e9ba6f</iCalUid>
+<Start>2023-04-14 13:30</Start>
+<End>2023-04-14 15:00</End>
+<Subject><![CDATA[Monthly Sharing Session (MSS)]]></Subject>
+<Categories><![CDATA[MSS]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="18" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-03-20 10:22:09</Modified>
+<iCalUid>3cfedd99c4244fdb8595dd56afbf6bff</iCalUid>
+<Start>2023-04-17 13:30</Start>
+<End>2023-04-17 15:00</End>
+<Subject><![CDATA[Monthly Sharing Session (MSS)]]></Subject>
+<Categories><![CDATA[MSS]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="19" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 14:43:09</Modified>
+<iCalUid>6aee089800014f34bc498b4d36f0523f</iCalUid>
+<Start>2023-04-18 13:30</Start>
+<End>2023-04-18 15:30</End>
+<Subject><![CDATA[QM RMPM]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="20" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 14:43:52</Modified>
+<iCalUid>710e3aefc30a4acf86aa586603270137</iCalUid>
+<Start>2023-04-20 13:15</Start>
+<End>2023-04-20 15:15</End>
+<Subject><![CDATA[Quality Review KJY]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="21" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 14:44:20</Modified>
+<iCalUid>8e4637d7ddf145ac90ecdaa0bbb1a136</iCalUid>
+<Start>2023-04-10 08:30</Start>
+<End>2023-04-10 10:00</End>
+<Subject><![CDATA[Management Meeting ]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="22" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-04-13 12:09:31</Modified>
+<iCalUid>3d65575228104f979f5f16d856322d47</iCalUid>
+<Start>2023-05-02 08:30</Start>
+<End>2023-05-02 15:30</End>
+<Subject><![CDATA[Manufacturing Monthly Meeting (MMM)]]></Subject>
+<Categories><![CDATA[MMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="23" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 14:45:27</Modified>
+<iCalUid>8de6611808e349b6ba99daca4d4c8a92</iCalUid>
+<Start>2023-05-09 08:30</Start>
+<End>2023-05-09 10:00</End>
+<Subject><![CDATA[Management Meeting ]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="24" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 14:45:59</Modified>
+<iCalUid>6e661227f53945dea90200b8d8384c4a</iCalUid>
+<Start>2023-05-10 08:30</Start>
+<End>2023-05-10 15:30</End>
+<Subject><![CDATA[FMM]]></Subject>
+<Categories><![CDATA[FMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="25" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-04 16:50:08</Modified>
+<iCalUid>e066428b6d6a42beb3f2880ab88518e3</iCalUid>
+<Start>2023-05-24 08:15</Start>
+<End>2023-05-24 09:45</End>
+<Subject><![CDATA[CRP Meeting]]></Subject>
+<Categories><![CDATA[CRP]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="26" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-04 16:50:31</Modified>
+<iCalUid>5fc33fdfd4b5462486801bef9a2093a1</iCalUid>
+<Start>2023-05-31 13:30</Start>
+<End>2023-05-31 15:00</End>
+<Subject><![CDATA[Monthly Sharing Session (MSS)]]></Subject>
+<Categories><![CDATA[MSS]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="27" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-04-14 16:05:53</Modified>
+<iCalUid>79a8635bd36f4ba69249cfe915c31c96</iCalUid>
+<Start>2023-05-23 13:30</Start>
+<End>2023-05-23 15:00</End>
+<Subject><![CDATA[Monthly Sharing Session (MSS)]]></Subject>
+<Categories><![CDATA[MSS]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="28" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-04-13 12:08:06</Modified>
+<iCalUid>81955744b32245e58af2f377b3424127</iCalUid>
+<Start>2023-05-23 09:00</Start>
+<End>2023-05-23 11:00</End>
+<Subject><![CDATA[ENERGY Meeting]]></Subject>
+<Categories><![CDATA[ENERGY]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="29" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-19 09:13:28</Modified>
+<iCalUid>c60eff3bd5514d1fb3093bc72aed17d0</iCalUid>
+<Start>2023-05-24 10:00</Start>
+<End>2023-05-24 12:00</End>
+<Subject><![CDATA[Quality Review KJY]]></Subject>
+<Categories><![CDATA[QRKJY]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="30" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 14:50:11</Modified>
+<iCalUid>faaa73ed0610401f8633f2eebefa5b97</iCalUid>
+<Start>2023-05-25 13:30</Start>
+<End>2023-05-25 15:30</End>
+<Subject><![CDATA[QM RMPM]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="31" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 14:51:20</Modified>
+<iCalUid>fc64dbea203947479587db0ba2857625</iCalUid>
+<Start>2023-06-05 08:30</Start>
+<End>2023-06-05 15:30</End>
+<Subject><![CDATA[Manufacturing Monthly Meeting (MMM)]]></Subject>
+<Categories><![CDATA[MMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="32" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 14:53:06</Modified>
+<iCalUid>a4d46922560744edb996efcbe435b42c</iCalUid>
+<Start>2023-06-07 08:30</Start>
+<End>2023-06-07 10:00</End>
+<Subject><![CDATA[Management Meeting ]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="33" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 14:53:26</Modified>
+<iCalUid>4dcad217145a43ca941b414b3d326130</iCalUid>
+<Start>2023-06-09 08:30</Start>
+<End>2023-06-09 15:30</End>
+<Subject><![CDATA[FMM - Host Kejayan]]></Subject>
+<Categories><![CDATA[FMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="34" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-06-12 14:38:24</Modified>
+<iCalUid>35469decb3224cfa8e1ea49789d3cfaa</iCalUid>
+<Start>2023-06-19 13:30</Start>
+<End>2023-06-19 15:30</End>
+<Subject><![CDATA[CRP Meeting]]></Subject>
+<Categories><![CDATA[CRP]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="35" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-06-07 15:14:40</Modified>
+<iCalUid>1581bcbd3b544d35a0c470f45be31e47</iCalUid>
+<Start>2023-06-21 09:00</Start>
+<End>2023-06-21 11:30</End>
+<Subject><![CDATA[ENERGY Meeting]]></Subject>
+<Categories><![CDATA[ENERGY]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="36" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-06-12 14:38:36</Modified>
+<iCalUid>e1bcf0aff4084133a270856b1160f67c</iCalUid>
+<Start>2023-06-28 14:00</Start>
+<End>2023-06-28 15:30</End>
+<Subject><![CDATA[(MSS)Monthly Sharing Session]]></Subject>
+<Categories><![CDATA[MSS]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="37" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-19 13:46:22</Modified>
+<iCalUid>f2554fb103e547abaf549ed1c1b1cddb</iCalUid>
+<Start>2023-06-26 14:00</Start>
+<End>2023-06-26 15:30</End>
+<Subject><![CDATA[(MSS)Monthly Sharing Session]]></Subject>
+<Categories><![CDATA[MSS]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="38" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 14:56:04</Modified>
+<iCalUid>e430952c4a434c2b81f2a70c7ef88c4d</iCalUid>
+<Start>2023-06-22 13:15</Start>
+<End>2023-06-22 15:15</End>
+<Subject><![CDATA[Quality Review KJY]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="39" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 14:56:26</Modified>
+<iCalUid>05551df8461b4c4bbd398d2ba24599f8</iCalUid>
+<Start>2023-06-23 13:30</Start>
+<End>2023-06-23 15:30</End>
+<Subject><![CDATA[QM RMPM]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="40" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-06-30 07:59:33</Modified>
+<iCalUid>cad59f8febd342e89e2ebc318ec68845</iCalUid>
+<Start>2023-07-05 08:30</Start>
+<End>2023-07-05 15:30</End>
+<Subject><![CDATA[Manufacturing Monthly Meeting (MMM)]]></Subject>
+<Categories><![CDATA[MMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="41" Sequence="0" Priority="1" BusyStatus="0" IntendedBusyStatus="2" AllDay="1" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 14:57:46</Modified>
+<iCalUid>f95319226a704c1295f561ac4aae57e8</iCalUid>
+<Start>2023-07-07 00:00</Start>
+<End>2023-07-07 23:59</End>
+<Subject><![CDATA[M2up Management Meeting]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="42" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 14:58:20</Modified>
+<iCalUid>df40dadd55a84df6b6d63b9f33f60332</iCalUid>
+<Start>2023-07-10 08:30</Start>
+<End>2023-07-10 15:30</End>
+<Subject><![CDATA[FMM]]></Subject>
+<Categories><![CDATA[FMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="43" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-04 08:15:14</Modified>
+<iCalUid>f946cc44613e40cb93a2cc50eec112a2</iCalUid>
+<Start>2023-07-17 14:00</Start>
+<End>2023-07-17 15:30</End>
+<Subject><![CDATA[(MSS)Monthly Sharing Session]]></Subject>
+<Categories><![CDATA[MSS]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="44" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-19 13:46:45</Modified>
+<iCalUid>9ac92b9ee2e44871b870edfe1eb16ee7</iCalUid>
+<Start>2023-07-24 14:00</Start>
+<End>2023-07-24 15:30</End>
+<Subject><![CDATA[(MSS)Monthly Sharing Session]]></Subject>
+<Categories><![CDATA[MSS]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="45" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-06 13:09:04</Modified>
+<iCalUid>7d2304b703c644a999737d42c4e1b24a</iCalUid>
+<Start>2023-07-14 09:00</Start>
+<End>2023-07-14 11:00</End>
+<Subject><![CDATA[CRP Meeting]]></Subject>
+<Categories><![CDATA[CRP]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="46" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 15:01:13</Modified>
+<iCalUid>6a50a90c19204f4b8f57cd4b9a1e835f</iCalUid>
+<Start>2023-07-17 09:00</Start>
+<End>2023-07-17 11:00</End>
+<Subject><![CDATA[ENERGY Meeting]]></Subject>
+<Categories><![CDATA[ENERGY]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="47" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-06 13:05:15</Modified>
+<iCalUid>56af3490dcf14a69918f884c6626b1f1</iCalUid>
+<Start>2023-07-21 13:15</Start>
+<End>2023-07-21 15:15</End>
+<Subject><![CDATA[Quality Review KJY]]></Subject>
+<Categories><![CDATA[Meeting pak As'ad]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="48" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-06 13:08:18</Modified>
+<iCalUid>396310e5affa4e3bb391925bb954a258</iCalUid>
+<Start>2023-07-25 13:30</Start>
+<End>2023-07-25 15:30</End>
+<Subject><![CDATA[QM RMPM]]></Subject>
+<Categories><![CDATA[Meeting pak As'ad]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="49" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-07 09:39:13</Modified>
+<iCalUid>3395f3b0d5494766a1ddc310d8971c69</iCalUid>
+<Start>2023-08-04 08:30</Start>
+<End>2023-08-04 16:00</End>
+<Subject><![CDATA[part 1 Manufacturing Monthly Meeting (MMM)]]></Subject>
+<Categories><![CDATA[MMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="50" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-18 07:50:42</Modified>
+<iCalUid>1c55086b7ea74223b41ba7492ae2900a</iCalUid>
+<Start>2023-08-10 08:30</Start>
+<End>2023-08-10 10:00</End>
+<Subject><![CDATA[Management Meeting ]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="51" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 15:07:10</Modified>
+<iCalUid>33dabd86e1dd4908b2cdf5534a084992</iCalUid>
+<Start>2023-08-09 08:00</Start>
+<End>2023-08-09 15:30</End>
+<Subject><![CDATA[FMM]]></Subject>
+<Categories><![CDATA[FMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="52" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-07 09:37:15</Modified>
+<iCalUid>c2eee76d31a74eabac1459e8b3bee7af</iCalUid>
+<Start>2023-08-18 09:00</Start>
+<End>2023-08-18 11:00</End>
+<Subject><![CDATA[CRP Meeting]]></Subject>
+<Categories><![CDATA[CRP]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="53" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-19 13:47:14</Modified>
+<iCalUid>1134ae104204451fbe64d55f704f1b07</iCalUid>
+<Start>2023-08-16 14:00</Start>
+<End>2023-08-16 15:30</End>
+<Subject><![CDATA[(MSS)Monthly Sharing Session]]></Subject>
+<Categories><![CDATA[MSS]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="54" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-17 11:01:48</Modified>
+<iCalUid>a7e95f1ebd384307914b786438a65e96</iCalUid>
+<Start>2023-08-14 09:00</Start>
+<End>2023-08-14 11:00</End>
+<Subject><![CDATA[ENERGY Meeting]]></Subject>
+<Categories><![CDATA[ENERGY]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="55" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-21 08:48:15</Modified>
+<iCalUid>4e70f5962941464ba26ee837112e8adb</iCalUid>
+<Start>2023-08-30 14:00</Start>
+<End>2023-08-30 15:30</End>
+<Subject><![CDATA[(MSS)Monthly Sharing Session]]></Subject>
+<Categories><![CDATA[MSS]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="56" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 15:09:52</Modified>
+<iCalUid>fc5a0b96f6e44e83afb0dd016287a02d</iCalUid>
+<Start>2023-08-23 13:15</Start>
+<End>2023-08-23 15:15</End>
+<Subject><![CDATA[Quality Review KJY]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="57" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 15:10:11</Modified>
+<iCalUid>913ba86c8dfc49eb8c09f68d7f774d39</iCalUid>
+<Start>2023-08-25 13:30</Start>
+<End>2023-08-25 15:30</End>
+<Subject><![CDATA[QM RMPM]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="58" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 15:50:41</Modified>
+<iCalUid>ee0a468094cc46728b0d619e1f2d8614</iCalUid>
+<Start>2023-01-06 08:30</Start>
+<End>2023-01-06 10:00</End>
+<Subject><![CDATA[Manufacturing Monthly Meeting (MMM)]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="59" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" AllDay="1" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 15:51:00</Modified>
+<iCalUid>8c0209bfa99d43b1add7397e144895fe</iCalUid>
+<Start>2023-01-13 00:00</Start>
+<End>2023-01-13 23:59</End>
+<Subject><![CDATA[FMM]]></Subject>
+<Categories><![CDATA[FMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="60" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 15:51:23</Modified>
+<iCalUid>5191c4e1723747529d2a6a981a1957c1</iCalUid>
+<Start>2023-01-17 09:00</Start>
+<End>2023-01-17 10:30</End>
+<Subject><![CDATA[ENERGY Meeting]]></Subject>
+<Categories><![CDATA[ENERGY]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="61" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" AllDay="1" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 15:51:50</Modified>
+<iCalUid>6f77d00128fc4b3d96d7e7f940de7461</iCalUid>
+<Start>2023-02-10 00:00</Start>
+<End>2023-02-10 23:59</End>
+<Subject><![CDATA[FMM]]></Subject>
+<Categories><![CDATA[FMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="62" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 15:52:26</Modified>
+<iCalUid>f95ba89dfc904270832756c2019cc3f8</iCalUid>
+<Start>2023-02-06 08:30</Start>
+<End>2023-02-06 15:00</End>
+<Subject><![CDATA[Manufacturing Monthly Meeting (MMM)]]></Subject>
+<Categories><![CDATA[MMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="63" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 15:52:52</Modified>
+<iCalUid>8f9cb45836be4e62aa461b2438ea9f4a</iCalUid>
+<Start>2023-02-14 09:00</Start>
+<End>2023-02-14 10:30</End>
+<Subject><![CDATA[CRP Meeting]]></Subject>
+<Categories><![CDATA[CRP]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="64" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 15:53:59</Modified>
+<iCalUid>dea0535fc1424a9fa97869a9c6cbe25f</iCalUid>
+<Start>2023-02-15 14:00</Start>
+<End>2023-02-15 15:30</End>
+<Subject><![CDATA[Monthly Sharing Session (MSS)]]></Subject>
+<Categories><![CDATA[MSS]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="65" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 15:54:26</Modified>
+<iCalUid>df592e9f136f4dbea906e4875c3422c8</iCalUid>
+<Start>2023-02-20 14:00</Start>
+<End>2023-02-20 15:30</End>
+<Subject><![CDATA[Monthly Sharing Session (MSS)]]></Subject>
+<Categories><![CDATA[MSS]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="66" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 15:54:55</Modified>
+<iCalUid>f0c6be3384224f65a795e7d14c74625e</iCalUid>
+<Start>2023-02-27 13:15</Start>
+<End>2023-02-27 15:15</End>
+<Subject><![CDATA[Quality Review KJY]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="67" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 15:55:35</Modified>
+<iCalUid>b1569c1798634478bd2e913571d1f0fe</iCalUid>
+<Start>2023-09-04 08:30</Start>
+<End>2023-09-04 15:00</End>
+<Subject><![CDATA[Manufacturing Monthly Meeting (MMM)]]></Subject>
+<Categories><![CDATA[MMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="68" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 15:55:45</Modified>
+<iCalUid>2ab1326be8e3427cb4d9d39548cb6a32</iCalUid>
+<Start>2023-09-06 08:30</Start>
+<End>2023-09-06 10:00</End>
+<Subject><![CDATA[Management Meeting ]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="69" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 15:56:07</Modified>
+<iCalUid>becc1e92f7f6434aa2bf603780dd390d</iCalUid>
+<Start>2023-09-08 08:00</Start>
+<End>2023-09-08 15:30</End>
+<Subject><![CDATA[FMM - Host Kejayan]]></Subject>
+<Categories><![CDATA[FMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="70" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-25 12:46:09</Modified>
+<iCalUid>427f7a1ea9d44367b505168363a36a31</iCalUid>
+<Start>2023-09-15 09:00</Start>
+<End>2023-09-15 11:00</End>
+<Subject><![CDATA[CRP Meeting]]></Subject>
+<Categories><![CDATA[CRP]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="71" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-09-05 09:40:48</Modified>
+<iCalUid>db7d62e7c9db46059c130fbeb9314801</iCalUid>
+<Start>2023-09-18 14:00</Start>
+<End>2023-09-18 15:30</End>
+<Subject><![CDATA[(MSS)Monthly Sharing Session]]></Subject>
+<Categories><![CDATA[MSS]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="72" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 15:57:29</Modified>
+<iCalUid>6e3eed8cd98d4f9b8b1793e8cdafd1c9</iCalUid>
+<Start>2023-09-14 09:00</Start>
+<End>2023-09-14 10:30</End>
+<Subject><![CDATA[ENERGY Meeting]]></Subject>
+<Categories><![CDATA[ENERGY]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="73" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-25 13:17:33</Modified>
+<iCalUid>2583ae1f9d7e425ebe35d45b9d20eb5c</iCalUid>
+<Start>2023-09-15 14:00</Start>
+<End>2023-09-15 15:30</End>
+<Subject><![CDATA[(MSS)Monthly Sharing Session]]></Subject>
+<Categories><![CDATA[MSS]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="74" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 15:58:28</Modified>
+<iCalUid>f824c6a5fca5424396d07c6bb07aea78</iCalUid>
+<Start>2023-10-05 08:30</Start>
+<End>2023-10-05 16:00</End>
+<Subject><![CDATA[Manufacturing Monthly Meeting (MMM)]]></Subject>
+<Categories><![CDATA[MMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="75" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 15:58:36</Modified>
+<iCalUid>79b839205459465f80096b3e38fee31a</iCalUid>
+<Start>2023-10-10 08:30</Start>
+<End>2023-10-10 10:00</End>
+<Subject><![CDATA[Management Meeting ]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="76" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 15:58:58</Modified>
+<iCalUid>3b1632a297f445279ea6d18836b60ac8</iCalUid>
+<Start>2023-10-11 08:30</Start>
+<End>2023-10-11 16:00</End>
+<Subject><![CDATA[FMM]]></Subject>
+<Categories><![CDATA[FMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="77" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-09-26 08:14:26</Modified>
+<iCalUid>8ea663ea6f39477785e4098f70b8a726</iCalUid>
+<Start>2023-10-12 09:00</Start>
+<End>2023-10-12 11:00</End>
+<Subject><![CDATA[Energy Meeting]]></Subject>
+<Categories><![CDATA[ENERGY]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+<Location><![CDATA[KEJAYAN]]></Location>
+</Event>
+<Event ID="78" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-10-03 10:39:03</Modified>
+<iCalUid>140fe3cd67e9457b96b3a5648fa15bf1</iCalUid>
+<Start>2023-10-23 09:00</Start>
+<End>2023-10-23 10:30</End>
+<Subject><![CDATA[CRP Meeting]]></Subject>
+<Categories><![CDATA[CRP]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="79" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-10-02 08:29:14</Modified>
+<iCalUid>bf7d2bbfcc7f4247bf508877d5982278</iCalUid>
+<Start>2023-10-16 14:00</Start>
+<End>2023-10-16 15:30</End>
+<Subject><![CDATA[(MSS)Monthly Sharing Session]]></Subject>
+<Categories><![CDATA[MSS]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="80" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-10-02 08:29:04</Modified>
+<iCalUid>39e706bdbea2427a985148a41d3d0afb</iCalUid>
+<Start>2023-10-13 14:00</Start>
+<End>2023-10-13 15:30</End>
+<Subject><![CDATA[(MSS)Monthly Sharing Session]]></Subject>
+<Categories><![CDATA[MSS]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="81" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 16:01:57</Modified>
+<iCalUid>fbfd350df7db447c8ae4485433ad4411</iCalUid>
+<Start>2023-11-03 08:30</Start>
+<End>2023-11-03 15:30</End>
+<Subject><![CDATA[Manufacturing Monthly Meeting (MMM)]]></Subject>
+<Categories><![CDATA[MMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="82" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 16:02:08</Modified>
+<iCalUid>2cdc085ecb0148cfa1be4474ccb5830b</iCalUid>
+<Start>2023-11-08 08:30</Start>
+<End>2023-11-08 10:00</End>
+<Subject><![CDATA[Management Meeting ]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="83" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 16:02:29</Modified>
+<iCalUid>1e67edd497294aa3b798376b5dc5ad6e</iCalUid>
+<Start>2023-11-09 08:30</Start>
+<End>2023-11-09 16:30</End>
+<Subject><![CDATA[FMM]]></Subject>
+<Categories><![CDATA[FMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="84" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 16:02:46</Modified>
+<iCalUid>68f5040a63f5468dab7bff4b122302c3</iCalUid>
+<Start>2023-11-14 09:00</Start>
+<End>2023-11-14 10:30</End>
+<Subject><![CDATA[CRP Meeting]]></Subject>
+<Categories><![CDATA[CRP]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="85" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-19 14:00:22</Modified>
+<iCalUid>3e7dfb31110f4737822003ed2e8bbc93</iCalUid>
+<Start>2023-11-15 14:00</Start>
+<End>2023-11-15 15:30</End>
+<Subject><![CDATA[(MSS)Monthly Sharing Session]]></Subject>
+<Categories><![CDATA[MSS]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="86" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 16:03:34</Modified>
+<iCalUid>adeaa4f3270b4c2a8e6124c2ca480fac</iCalUid>
+<Start>2023-11-16 09:00</Start>
+<End>2023-11-16 11:00</End>
+<Subject><![CDATA[ENERGY Meeting]]></Subject>
+<Categories><![CDATA[ENERGY]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="87" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-19 14:00:27</Modified>
+<iCalUid>6894bc6fc9bf41c1896b1b40c9c83e8c</iCalUid>
+<Start>2023-11-20 14:00</Start>
+<End>2023-11-20 15:30</End>
+<Subject><![CDATA[(MSS)Monthly Sharing Session]]></Subject>
+<Categories><![CDATA[MSS]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="88" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 16:04:36</Modified>
+<iCalUid>e7688f13bdb24fa799f3d17d486c67ed</iCalUid>
+<Start>2023-12-04 08:30</Start>
+<End>2023-12-04 16:00</End>
+<Subject><![CDATA[Manufacturing Monthly Meeting (MMM)]]></Subject>
+<Categories><![CDATA[MMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="89" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 16:04:43</Modified>
+<iCalUid>fd374cc2483b4523be2dee55b830a14b</iCalUid>
+<Start>2023-12-06 08:30</Start>
+<End>2023-12-06 10:00</End>
+<Subject><![CDATA[Management Meeting ]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="90" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 16:05:14</Modified>
+<iCalUid>9b5a1d02eada4a308d3085aa696b5246</iCalUid>
+<Start>2023-12-08 08:00</Start>
+<End>2023-12-08 15:30</End>
+<Subject><![CDATA[FMM - Host Kejayan]]></Subject>
+<Categories><![CDATA[FMM]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="91" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 16:05:31</Modified>
+<iCalUid>0238fda0dcda4077b3d729b6f746a255</iCalUid>
+<Start>2023-12-12 09:00</Start>
+<End>2023-12-12 10:30</End>
+<Subject><![CDATA[CRP Meeting]]></Subject>
+<Categories><![CDATA[CRP]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="92" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-19 14:00:44</Modified>
+<iCalUid>76cea5c253e34aae81533c1d05e9c173</iCalUid>
+<Start>2023-12-13 14:00</Start>
+<End>2023-12-13 15:30</End>
+<Subject><![CDATA[(MSS)Monthly Sharing Session]]></Subject>
+<Categories><![CDATA[MSS]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="93" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-02-27 16:06:18</Modified>
+<iCalUid>d5d3115209924d718848573c485c265b</iCalUid>
+<Start>2023-12-14 09:00</Start>
+<End>2023-12-14 11:00</End>
+<Subject><![CDATA[ENERGY Meeting]]></Subject>
+<Categories><![CDATA[ENERGY]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="94" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-19 14:00:39</Modified>
+<iCalUid>abee39960a78456fbd033d14c6dc7e80</iCalUid>
+<Start>2023-12-18 14:00</Start>
+<End>2023-12-18 15:30</End>
+<Subject><![CDATA[(MSS)Monthly Sharing Session]]></Subject>
+<Categories><![CDATA[MSS]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="95" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-03-14 10:33:58</Modified>
+<iCalUid>6b558e2b0fe54a8bad2e86523b0e7ca6</iCalUid>
+<Start>2023-03-15 08:30</Start>
+<End>2023-03-15 10:00</End>
+<Subject><![CDATA[SMF]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="96" Sequence="0" Priority="1" BusyStatus="0" IntendedBusyStatus="2" AllDay="1" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-04 16:53:07</Modified>
+<iCalUid>d029a5196d0c47949a83b2aa27698894</iCalUid>
+<Start>2023-05-29 00:00</Start>
+<End>2023-05-29 23:59</End>
+<Subject><![CDATA[ATCI CONVENTION]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="97" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-04 16:53:52</Modified>
+<iCalUid>cf00c89386094b2ba5568e50f3128836</iCalUid>
+<Start>2023-05-16 09:00</Start>
+<End>2023-05-16 10:30</End>
+<Subject><![CDATA[Message Budget 2024 Plant Director]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="98" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-05 03:09:27</Modified>
+<iCalUid>5882114ae495467a8d1b8f22fd24a995</iCalUid>
+<Start>2023-05-22 09:00</Start>
+<End>2023-05-22 17:00</End>
+<Subject><![CDATA[CAPEX Presentation]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="99" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-05 16:39:45</Modified>
+<iCalUid>9ef9d62702e345209bc8c89c4f75cd26</iCalUid>
+<Start>2023-05-18 08:30</Start>
+<End>2023-05-19 00:00</End>
+<Subject><![CDATA[MAX Submit data CAPEX]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="100" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-05 03:10:53</Modified>
+<iCalUid>10f4446f2f6846b692a38de2ee95a0cc</iCalUid>
+<Start>2023-05-24 08:30</Start>
+<End>2023-05-25 00:00</End>
+<Subject><![CDATA[MAX Submit data OPEX]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="101" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-05 03:12:47</Modified>
+<iCalUid>898e7a5d187941549c5032cebc3c8bb6</iCalUid>
+<Start>2023-05-25 09:00</Start>
+<End>2023-05-26 00:00</End>
+<Subject><![CDATA[presentation data OPEX]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="102" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-05 03:33:09</Modified>
+<iCalUid>7a39b1c247ca482c975e54e991bdc7b2</iCalUid>
+<Start>2023-05-17 09:00</Start>
+<End>2023-05-17 11:30</End>
+<Subject><![CDATA[SMF Meeting]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="103" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-06 05:31:58</Modified>
+<iCalUid>94ff8420f3e54eda8742040f630aaa4e</iCalUid>
+<Start>2023-05-30 09:00</Start>
+<End>2023-05-30 10:30</End>
+<Subject><![CDATA[YIELD PRESENTATION SKB/KJY]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="104" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-06-07 14:47:57</Modified>
+<iCalUid>42fefeaee067408ba9dd7b368bb6f6dd</iCalUid>
+<Start>2023-06-15 09:00</Start>
+<End>2023-06-15 12:00</End>
+<Subject><![CDATA[BSC - KPI Evaluation Meeting Periode Dec 21 - May 22]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="105" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-19 09:54:07</Modified>
+<iCalUid>3a6fcece37744ea3a628c3c85f9edacb</iCalUid>
+<Start>2023-06-22 08:30</Start>
+<End>2023-06-22 10:00</End>
+<Subject><![CDATA[Dept Head Appraisal Meeting for PA S1 - S3]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="106" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-19 09:54:16</Modified>
+<iCalUid>755d6c3fae644cc9af0770fd28f04a61</iCalUid>
+<Start>2023-06-26 08:30</Start>
+<End>2023-06-26 10:00</End>
+<Subject><![CDATA[Dept Head Appraisal Meeting for PA S1 - S3]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="107" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-19 09:54:53</Modified>
+<iCalUid>10ab6d4071b64df0929a31154299fa0f</iCalUid>
+<Start>2023-06-20 09:00</Start>
+<End>2023-06-20 10:30</End>
+<Subject><![CDATA[BSC - KPI Evaluation Meeting Periode Dec 21 - May 22]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="108" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-19 09:56:08</Modified>
+<iCalUid>4180a4d1b5a04cc687945465167c4fde</iCalUid>
+<Start>2023-06-12 08:30</Start>
+<End>2023-06-13 10:00</End>
+<Subject><![CDATA[SHM OI & Ceremony New Line OI]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="110" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-23 08:29:28</Modified>
+<iCalUid>6d3788f2ec33476787d104f4b610ca72</iCalUid>
+<Start>2023-05-26 15:00</Start>
+<End>2023-05-26 17:00</End>
+<Subject><![CDATA[OC MEETING PLANNING]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="111" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-25 09:05:09</Modified>
+<iCalUid>0fbf3052f5bc438eb1f481f15dcee764</iCalUid>
+<Start>2023-05-29 13:00</Start>
+<End>2023-05-29 14:30</End>
+<Subject><![CDATA[OTSUKA GO]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="112" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-22 14:52:25</Modified>
+<iCalUid>dcdefdbcb66e499a975d4ea5df440a1c</iCalUid>
+<Start>2023-05-25 10:00</Start>
+<End>2023-05-25 12:00</End>
+<Subject><![CDATA[quarter mass upload meeting]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="113" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-23 08:21:08</Modified>
+<iCalUid>ff882433fa0c430fba099efc83e337c3</iCalUid>
+<Start>2023-05-24 09:00</Start>
+<End>2023-05-24 10:30</End>
+<Subject><![CDATA[Kaizen Technical meeting]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="114" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-25 09:03:46</Modified>
+<iCalUid>dfa3763c1cd54b84bcc0b3cfa64096c4</iCalUid>
+<Start>2023-05-25 09:00</Start>
+<End>2023-05-25 10:30</End>
+<Subject><![CDATA[CAPEX Meeting]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="115" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-25 09:04:14</Modified>
+<iCalUid>6e9a69e6aac24c19b3c7d7bf107ce655</iCalUid>
+<Start>2023-05-25 12:30</Start>
+<End>2023-05-25 14:00</End>
+<Subject><![CDATA[Waste Management Meeting]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="116" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-05-25 09:04:41</Modified>
+<iCalUid>4de839353b084e67b6ba2b8410e07aff</iCalUid>
+<Start>2023-05-26 13:00</Start>
+<End>2023-05-26 14:30</End>
+<Subject><![CDATA[presentation IOT Meeting]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="117" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-06-07 14:46:52</Modified>
+<iCalUid>8290fa6f9cb249c9b638133585add5e2</iCalUid>
+<Start>2023-06-21 13:00</Start>
+<End>2023-06-21 14:30</End>
+<Subject><![CDATA[pak As'ad meeting with pak Henry]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="118" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-06-12 10:23:08</Modified>
+<iCalUid>dc83293135624668b66f77e71cc331f9</iCalUid>
+<Start>2023-06-14 13:00</Start>
+<End>2023-06-14 14:30</End>
+<Subject><![CDATA[Pak As'ad project meeting with pak Henry]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="119" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-06-07 14:48:26</Modified>
+<iCalUid>c8061bcb00de4520bcd3e88a90ff4c4c</iCalUid>
+<Start>2023-06-16 13:00</Start>
+<End>2023-06-16 14:30</End>
+<Subject><![CDATA[PA Meeting Kejayan]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="120" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-06-12 09:50:07</Modified>
+<iCalUid>7aae4c875c264c3f87a6bf45533628f9</iCalUid>
+<Start>2023-06-14 09:00</Start>
+<End>2023-06-14 12:00</End>
+<Subject><![CDATA[SMF Meeting]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="121" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-06-12 09:51:47</Modified>
+<iCalUid>6451319db37a4a5d8d5e495b7a6a5bb7</iCalUid>
+<Start>2023-06-20 13:30</Start>
+<End>2023-06-20 16:00</End>
+<Subject><![CDATA[PA Meeting Internal Kejayan (Semester 1 Tahun 2023)]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="122" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-06-12 09:53:09</Modified>
+<iCalUid>691775cf19124d67aed6d9a4dae82ff0</iCalUid>
+<Start>2023-06-19 10:30</Start>
+<End>2023-06-19 12:00</End>
+<Subject><![CDATA[AIO HISTORY KONSOLIDASI MEETING]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="123" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-06-12 10:12:46</Modified>
+<iCalUid>df1e5286e0ca428bb8dd42c4b5d3724d</iCalUid>
+<Start>2023-06-19 08:30</Start>
+<End>2023-06-19 11:00</End>
+<Subject><![CDATA[BUDGET Meeting prod plan, depend on sales from HO]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="124" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-06-12 14:47:38</Modified>
+<iCalUid>96fb8a83070343e98982c985b5a05aed</iCalUid>
+<Start>2023-06-15 10:00</Start>
+<End>2023-06-15 12:00</End>
+<Subject><![CDATA[Presentasi Member Internship – Automation atas nama M. Taufik]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="125" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-06-19 08:31:32</Modified>
+<iCalUid>5d8d0d1cd2244944a812a9a161bcf5c8</iCalUid>
+<Start>2023-06-20 13:00</Start>
+<End>2023-06-20 14:30</End>
+<Subject><![CDATA[CAP DEVELOPMENT]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="127" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-06 13:05:24</Modified>
+<iCalUid>afe77967b2ba40209a5d1e62b8945669</iCalUid>
+<Start>2023-07-12 13:30</Start>
+<End>2023-07-12 15:00</End>
+<Subject><![CDATA[RPET]]></Subject>
+<Categories><![CDATA[Meeting pak As'ad]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="128" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-06 13:05:02</Modified>
+<iCalUid>1ec9567565d64cd19fcb38e31efedbb6</iCalUid>
+<Start>2023-07-20 13:30</Start>
+<End>2023-07-20 15:00</End>
+<Subject><![CDATA[krones dan MPDD]]></Subject>
+<Categories><![CDATA[Meeting pak As'ad]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="129" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-06 13:03:24</Modified>
+<iCalUid>c95ab730c05941439ef604c704a6578e</iCalUid>
+<Start>2023-07-11 08:35</Start>
+<End>2023-07-11 10:05</End>
+<Subject><![CDATA[onflight]]></Subject>
+<Categories><![CDATA[Needs Preparation]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="130" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-06 13:03:33</Modified>
+<iCalUid>29770035c0e14b10b70e324e2d881356</iCalUid>
+<Start>2023-07-11 14:30</Start>
+<End>2023-07-11 16:00</End>
+<Subject><![CDATA[Overseas project]]></Subject>
+<Categories><![CDATA[Needs Preparation]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="131" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-06 13:03:41</Modified>
+<iCalUid>f35ad4550cda4acca2e1571dc9544511</iCalUid>
+<Start>2023-07-12 08:30</Start>
+<End>2023-07-12 10:00</End>
+<Subject><![CDATA[PMO meeting Kitsutaka san]]></Subject>
+<Categories><![CDATA[Needs Preparation]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="132" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-06 13:04:13</Modified>
+<iCalUid>d6494dee57e14ecc8a78734dc61d8660</iCalUid>
+<Start>2023-07-12 09:00</Start>
+<End>2023-07-12 10:30</End>
+<Subject><![CDATA[SMF Meeting ]]></Subject>
+<Categories><![CDATA[Needs Preparation]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="133" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-06 13:06:30</Modified>
+<iCalUid>6736ac2cb83949f3ad6b8b99a4282dff</iCalUid>
+<Start>2023-07-12 13:00</Start>
+<End>2023-07-12 14:30</End>
+<Subject><![CDATA[Project meeting HO]]></Subject>
+<Categories><![CDATA[Needs Preparation]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="134" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-06 13:07:03</Modified>
+<iCalUid>6299f07ef7ad497a9fb4026f3e6559a7</iCalUid>
+<Start>2023-07-12 15:00</Start>
+<End>2023-07-12 16:30</End>
+<Subject><![CDATA[Nigeria Weekly Meeting]]></Subject>
+<Categories><![CDATA[Needs Preparation]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="135" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-06 13:07:58</Modified>
+<iCalUid>11d3ec9bc65944b798f8dde9fae84160</iCalUid>
+<Start>2023-07-14 13:30</Start>
+<End>2023-07-14 15:00</End>
+<Subject><![CDATA[Judgment Meeting Online Al-4]]></Subject>
+<Categories><![CDATA[Needs Preparation]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="136" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-10 03:57:15</Modified>
+<iCalUid>29469f2064ea459ca47886c2858eb9ef</iCalUid>
+<Start>2023-07-13 09:00</Start>
+<End>2023-07-13 10:30</End>
+<Subject><![CDATA[GENBA fullday]]></Subject>
+<Categories><![CDATA[International]]></Categories>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="137" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-10 11:15:28</Modified>
+<iCalUid>a1ea8bd76cf34f7e83ec1cadff91f022</iCalUid>
+<Start>2023-07-14 08:15</Start>
+<End>2023-07-14 09:45</End>
+<Subject><![CDATA[kick Off meeting new applicaton]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="138" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-10 15:31:50</Modified>
+<iCalUid>3fb48a80222041228f65cbc5187a358d</iCalUid>
+<Start>2023-07-18 13:30</Start>
+<End>2023-07-18 15:00</End>
+<Subject><![CDATA[refreshment GMP]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="139" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-10 15:35:54</Modified>
+<iCalUid>6653a11283bc40df8069f248972bd7a5</iCalUid>
+<Start>2023-07-12 13:30</Start>
+<End>2023-07-12 15:00</End>
+<Subject><![CDATA[refreshment GMP]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="140" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-11 08:46:49</Modified>
+<iCalUid>c6e9a8c7fc89450ab70cced589d7d0f3</iCalUid>
+<Start>2023-07-12 15:00</Start>
+<End>2023-07-12 17:00</End>
+<Subject><![CDATA[closing Internal Audit]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="141" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-11 15:58:25</Modified>
+<iCalUid>97eb5a2360fe45cbb878d0d8d50fea87</iCalUid>
+<Start>2023-07-12 08:30</Start>
+<End>2023-07-12 10:00</End>
+<Subject><![CDATA[BENCHMARK YAMAHA ELECTRIC]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="142" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-13 08:24:49</Modified>
+<iCalUid>33e36ec9d60f4c848e79c55b037f7003</iCalUid>
+<Start>2023-07-26 09:00</Start>
+<End>2023-07-26 16:30</End>
+<Subject><![CDATA[Training Coaching ]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="143" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-13 08:25:18</Modified>
+<iCalUid>adade7eebdde4bbba5bd6a897dffe27c</iCalUid>
+<Start>2023-07-27 09:00</Start>
+<End>2023-07-27 16:30</End>
+<Subject><![CDATA[Training Coaching ]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="145" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-18 07:49:16</Modified>
+<iCalUid>4d905bbc32f94351ae02d75e45eb0483</iCalUid>
+<Start>2023-08-17 08:30</Start>
+<End>2023-08-17 10:00</End>
+<Subject><![CDATA[INDONESIA INDEPENDENCE DAY]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="146" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-18 09:46:45</Modified>
+<iCalUid>1e668cb919054b658c56fac2c392be19</iCalUid>
+<Start>2023-08-10 08:30</Start>
+<End>2023-08-10 10:00</End>
+<Subject><![CDATA[H2 Kaizen]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="147" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-18 09:47:02</Modified>
+<iCalUid>63ee666789be4cfb9fb72b2acaa99a17</iCalUid>
+<Start>2023-08-11 08:30</Start>
+<End>2023-08-11 10:00</End>
+<Subject><![CDATA[H-IFI]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="148" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-18 09:47:26</Modified>
+<iCalUid>0232a72914ea456dbca783b6152e30d0</iCalUid>
+<Start>2023-08-16 08:30</Start>
+<End>2023-08-16 10:00</End>
+<Subject><![CDATA[H2 Kaizen]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="149" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-18 09:47:36</Modified>
+<iCalUid>39be1f543ddf4fb8aa654df1740ecc84</iCalUid>
+<Start>2023-08-18 08:30</Start>
+<End>2023-08-18 10:00</End>
+<Subject><![CDATA[H2 Kaizen]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="150" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-20 08:25:34</Modified>
+<iCalUid>edb1921a7ff641a8bffff27c23da59b9</iCalUid>
+<Start>2023-07-20 10:30</Start>
+<End>2023-07-20 14:30</End>
+<Subject><![CDATA[intern presentation]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="151" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-20 08:25:45</Modified>
+<iCalUid>5dc47b8db4994498b04caa70f635cffd</iCalUid>
+<Start>2023-07-18 08:30</Start>
+<End>2023-07-18 10:00</End>
+<Subject><![CDATA[intern presentation]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="152" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-24 09:11:32</Modified>
+<iCalUid>dab09b1642224591ad58f11a559f9598</iCalUid>
+<Start>2023-07-27 09:00</Start>
+<End>2023-07-27 10:30</End>
+<Subject><![CDATA[meeting planning]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="153" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-25 11:30:16</Modified>
+<iCalUid>96da231cf1664870b510fc8aa4f2765c</iCalUid>
+<Start>2024-04-24 08:30</Start>
+<End>2024-04-24 10:00</End>
+<Subject><![CDATA[pak As'ad bday]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+<Recurrence Type="4" SubType="2" Interval="1" DayOfMonth="24" MonthOfYear="4">
+<Start>2024-04-24 08:30</Start>
+<End>4500-08-31 00:00</End>
+<TimeZone Bias="-420"/>
+</Recurrence>
+</Event>
+<Event ID="154" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-25 11:30:36</Modified>
+<iCalUid>cf8ff9ca64a84f2da5d21d9517369749</iCalUid>
+<Start>2024-06-01 08:30</Start>
+<End>2024-06-01 10:00</End>
+<Subject><![CDATA[Bu Tiwi Bday]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+<Recurrence Type="4" SubType="2" Interval="1" DayOfMonth="1" MonthOfYear="6">
+<Start>2024-06-01 08:30</Start>
+<End>4500-08-31 00:00</End>
+<TimeZone Bias="-420"/>
+</Recurrence>
+</Event>
+<Event ID="155" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-25 11:30:57</Modified>
+<iCalUid>ef3f1b72812344a89dcfafdecb0cbe17</iCalUid>
+<Start>2024-07-25 08:30</Start>
+<End>2024-07-25 10:00</End>
+<Subject><![CDATA[Pak Mifta Bday]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+<Recurrence Type="4" SubType="2" Interval="1" DayOfMonth="25" MonthOfYear="7">
+<Start>2024-07-25 08:30</Start>
+<End>4500-08-31 00:00</End>
+<TimeZone Bias="-420"/>
+</Recurrence>
+</Event>
+<Event ID="156" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-27 09:01:29</Modified>
+<iCalUid>30d6e804365f4aedadf7f5341f1b97fe</iCalUid>
+<Start>2023-08-14 10:00</Start>
+<End>2023-08-14 11:30</End>
+<Subject><![CDATA[Training : Basic Sensory ]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="157" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-27 09:02:04</Modified>
+<iCalUid>67e8880b9c2b4aaba63e294b854d43a4</iCalUid>
+<Start>2023-07-28 13:30</Start>
+<End>2023-07-28 15:00</End>
+<Subject><![CDATA[Training Sistem Instalasi Pengolahan Air Limbah ]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="158" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-07-28 09:35:19</Modified>
+<iCalUid>77d65e772f614f9196c89045614e9426</iCalUid>
+<Start>2023-08-02 08:30</Start>
+<End>2023-08-02 10:00</End>
+<Subject><![CDATA[Tokushima Joto high School visit]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="159" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-04 16:58:39</Modified>
+<iCalUid>e601f45c984b4588ba39deffb9e55b02</iCalUid>
+<Start>2023-08-28 09:00</Start>
+<End>2023-08-28 10:30</End>
+<Subject><![CDATA[Opening Meeting Internal Audit ISO 9001 dan FSSC 22000]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="160" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-07 09:37:28</Modified>
+<iCalUid>febcb0c47ba5402ea95e201900168c08</iCalUid>
+<Start>2023-08-15 08:30</Start>
+<End>2023-08-15 10:00</End>
+<Subject><![CDATA[KANEKA VISIT]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="161" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-08 07:42:52</Modified>
+<iCalUid>42fcaeb9269d4523a0b7494f2e57ac7f</iCalUid>
+<Start>2023-08-15 09:00</Start>
+<End>2023-08-15 11:00</End>
+<Subject><![CDATA[ MR ISO 14001, ISO 45001 &ISO 50001]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="162" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-07 09:38:54</Modified>
+<iCalUid>8ee3845f920f48a387557f0271513e2f</iCalUid>
+<Start>2023-08-07 08:30</Start>
+<End>2023-08-07 10:00</End>
+<Subject><![CDATA[part 2 Manufacturing Monthly Meeting (MMM)]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="163" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-07 16:07:00</Modified>
+<iCalUid>105cdae4fca6412eb1c0726c704036ae</iCalUid>
+<Start>2023-08-22 08:30</Start>
+<End>2023-08-22 10:00</End>
+<Subject><![CDATA[HEARING 2]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="164" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-10 14:49:31</Modified>
+<iCalUid>3ef33b8493f640d387159c59e63c6fab</iCalUid>
+<Start>2023-08-01 08:30</Start>
+<End>2023-08-01 10:00</End>
+<Subject><![CDATA[CALMS]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="165" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-11 08:32:51</Modified>
+<iCalUid>47a4bba644ab4b4fbcbd3211f55e02dd</iCalUid>
+<Start>2023-08-16 13:30</Start>
+<End>2023-08-16 15:00</End>
+<Subject><![CDATA[CALMS]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="166" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-11 08:32:13</Modified>
+<iCalUid>ba344d5ae16743808909c4fdbd8d7b45</iCalUid>
+<Start>2023-08-16 08:30</Start>
+<End>2023-08-16 10:00</End>
+<Subject><![CDATA[SMF Meeting]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="167" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-11 08:38:56</Modified>
+<iCalUid>d3f5ed7697e64bb296299b811a6ef131</iCalUid>
+<Start>2023-08-18 13:30</Start>
+<End>2023-08-18 15:00</End>
+<Subject><![CDATA[QR SKB]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="168" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-11 08:41:38</Modified>
+<iCalUid>8b08e09e8b6f4c579702098dfff30b09</iCalUid>
+<Start>2023-08-21 08:30</Start>
+<End>2023-08-21 10:00</End>
+<Subject><![CDATA[Meeting Pagi]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="169" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-11 08:50:06</Modified>
+<iCalUid>14427db32fb543d3a45a54869d6e90bf</iCalUid>
+<Start>2023-08-18 13:30</Start>
+<End>2023-08-18 15:00</End>
+<Subject><![CDATA[Vibration test Application]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="170" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-11 08:54:31</Modified>
+<iCalUid>a1873f18b2ee403f839429a0ddb21931</iCalUid>
+<Start>2023-08-11 08:30</Start>
+<End>2023-08-11 10:00</End>
+<Subject><![CDATA[ Closing Meeting Internal ]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="171" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-11 09:00:06</Modified>
+<iCalUid>3c487fd1a7ff4f8ba6405841a3b88f24</iCalUid>
+<Start>2023-08-14 10:00</Start>
+<End>2023-08-14 11:30</End>
+<Subject><![CDATA[Training : Basic Sensory ]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="172" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-11 09:07:27</Modified>
+<iCalUid>9afe34628083487fa9ca586c335df35b</iCalUid>
+<Start>2023-08-15 08:30</Start>
+<End>2023-08-15 10:00</End>
+<Subject><![CDATA[D1 OTSUKA YOUNG STAR]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="173" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-11 09:07:18</Modified>
+<iCalUid>6d998a64120a4157ae29e0940d622612</iCalUid>
+<Start>2023-08-16 08:30</Start>
+<End>2023-08-16 10:00</End>
+<Subject><![CDATA[D2 OTSUKA YOUNG STAR]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="174" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-16 15:01:01</Modified>
+<iCalUid>871262e0e9b84bde9accf6db6319bb3f</iCalUid>
+<Start>2023-08-15 08:30</Start>
+<End>2023-08-16 10:00</End>
+<Subject><![CDATA[SKB training FSSC ver 6]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="175" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-25 13:20:33</Modified>
+<iCalUid>b9fd3498c17c4de69ea9aa32224e8b48</iCalUid>
+<Start>2023-10-09 08:30</Start>
+<End>2023-10-11 17:00</End>
+<Subject><![CDATA[Ext Audit – ISO 9001 & FSSC 22000]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="176" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-09-11 09:41:26</Modified>
+<iCalUid>b352d152d6724d93b44cb898da3d9bb8</iCalUid>
+<Start>2023-09-25 08:30</Start>
+<End>2023-09-25 10:00</End>
+<Subject><![CDATA[Event President Joko Widodo KEMENKES TB]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="177" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-21 08:48:38</Modified>
+<iCalUid>ba935c8e92a644fd9896e1014d27a8fa</iCalUid>
+<Start>2023-08-21 13:00</Start>
+<End>2023-08-21 14:30</End>
+<Subject><![CDATA[350SH dg MPDD]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="178" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-25 11:11:42</Modified>
+<iCalUid>04f610e1af654a5e897a649bedc3d1ee</iCalUid>
+<Start>2023-08-29 08:30</Start>
+<End>2023-08-29 10:00</End>
+<Subject><![CDATA[planning meeting]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="179" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-25 12:58:13</Modified>
+<iCalUid>054e27b6bbd2431f9b8cd89b8c8a169f</iCalUid>
+<Start>2023-08-28 08:30</Start>
+<End>2023-08-30 10:00</End>
+<Subject><![CDATA[internal audit FSSC 22000]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="181" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-25 12:59:44</Modified>
+<iCalUid>c19990841d984072af6a121e8157c298</iCalUid>
+<Start>2023-07-15 08:30</Start>
+<End>2023-09-05 10:00</End>
+<Subject><![CDATA[ Overhaul OC-1 & Project Short Height]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="182" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-25 13:21:25</Modified>
+<iCalUid>1955a7d6a7234e46adbaf920c7ead78a</iCalUid>
+<Start>2023-09-25 08:30</Start>
+<End>2023-09-27 10:00</End>
+<Subject><![CDATA[Surveillance Audit ISO 50001 :  2018]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="183" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-25 15:44:02</Modified>
+<iCalUid>630cfd886663429aab9e65ac1deaf301</iCalUid>
+<Start>2023-08-27 10:00</Start>
+<End>2023-08-28 00:30</End>
+<Subject><![CDATA[Konservasi energy meeting internal KJY]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="184" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-08-25 15:46:19</Modified>
+<iCalUid>8e82f38bf8284f1ba85839e8f03dbd2f</iCalUid>
+<Start>2023-08-31 10:00</Start>
+<End>2023-08-31 11:00</End>
+<Subject><![CDATA[plan pabrik Kejayan sampai tahun 2030 untuk menuju NET-zero]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="185" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-09-05 10:20:53</Modified>
+<iCalUid>67ce78b4f54241b1a693eaf37036246d</iCalUid>
+<Start>2023-09-13 09:00</Start>
+<End>2023-09-13 11:00</End>
+<Subject><![CDATA[SMF SEPTEMBER 2023]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="186" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-09-05 12:20:40</Modified>
+<iCalUid>8049dfba27b04bf9ac9231b351958d6b</iCalUid>
+<Start>2023-09-06 08:30</Start>
+<End>2023-09-06 10:00</End>
+<Subject><![CDATA[FSB OH ]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="187" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-09-07 08:00:25</Modified>
+<iCalUid>e69585d78e684d34859e3f0fa58cc607</iCalUid>
+<Start>2023-09-07 08:30</Start>
+<End>2023-09-07 10:00</End>
+<Subject><![CDATA[OH FSB Preparation Meeting]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="188" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-09-11 15:26:50</Modified>
+<iCalUid>7add3039ceb042efa5c655dd58f02a15</iCalUid>
+<Start>2023-09-13 09:30</Start>
+<End>2023-09-13 16:00</End>
+<Subject><![CDATA[People Development Training]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="189" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-09-11 15:48:53</Modified>
+<iCalUid>0689839465a843afb7c16b4819b227f3</iCalUid>
+<Start>2023-09-13 08:30</Start>
+<End>2023-09-13 10:00</End>
+<Subject><![CDATA[ (pre-event) agenda TB collaboration bersama Kemenkes/Kemnaker,]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="190" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-09-18 08:29:06</Modified>
+<iCalUid>6b1d2ea2e1d242a7a5d58685552039d4</iCalUid>
+<Start>2023-09-21 09:00</Start>
+<End>2023-09-21 10:30</End>
+<Subject><![CDATA[Quality Review KJY]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="191" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-09-19 09:08:50</Modified>
+<iCalUid>0a8223f5e1c44e59b011d826e4de9cbe</iCalUid>
+<Start>2023-09-26 10:00</Start>
+<End>2023-09-26 11:30</End>
+<Subject><![CDATA[closing Internal Audit]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="192" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-09-19 09:09:19</Modified>
+<iCalUid>6819616bfc74491e9402c60bf49719d7</iCalUid>
+<Start>2023-09-25 13:30</Start>
+<End>2023-09-25 15:00</End>
+<Subject><![CDATA[QM RMPM]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="193" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-09-19 15:08:07</Modified>
+<iCalUid>bf3b162902b54ae3879facbf3cfef0c7</iCalUid>
+<Start>2023-09-26 13:30</Start>
+<End>2023-09-26 15:00</End>
+<Subject><![CDATA[meeting planning tgl]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="196" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-10-01 16:31:58</Modified>
+<iCalUid>d7f55e1294e84f38bbdb54e2a320d570</iCalUid>
+<Start>2023-10-06 13:30</Start>
+<End>2023-10-06 16:30</End>
+<Subject><![CDATA[Data management by Reza IOT ONLINE]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="197" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-10-01 16:32:41</Modified>
+<iCalUid>f6e7ced7dcd4442eaa7934f5c7f26be7</iCalUid>
+<Start>2023-10-13 09:00</Start>
+<End>2023-10-14 00:00</End>
+<Subject><![CDATA[offline Scatter diagramTraining]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="198" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-10-01 16:33:49</Modified>
+<iCalUid>6df3ddfd09e649e5838294f2bfce4f27</iCalUid>
+<Start>2023-10-19 13:30</Start>
+<End>2023-10-19 15:00</End>
+<Subject><![CDATA[Online Prinsip Kalibrasi]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="199" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-10-01 16:34:21</Modified>
+<iCalUid>c4be664e37624b8c9a80c0b3742a5f17</iCalUid>
+<Start>2023-10-23 14:00</Start>
+<End>2023-10-23 15:30</End>
+<Subject><![CDATA[offline Making improvement proposal]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="200" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-10-01 16:34:51</Modified>
+<iCalUid>1fe28cb7f07646b89d3282c1dda9e39b</iCalUid>
+<Start>2023-10-24 09:30</Start>
+<End>2023-10-24 11:00</End>
+<Subject><![CDATA[Hybrid Sensory Mr Yanase]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="201" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-10-01 16:35:42</Modified>
+<iCalUid>3cb786d73ec447a9aa8ead1053e2afa1</iCalUid>
+<Start>2023-10-24 13:00</Start>
+<End>2023-10-24 14:30</End>
+<Subject><![CDATA[offline Effective business email Mr. Henry]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="202" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-10-01 16:37:25</Modified>
+<iCalUid>d3450ae61e464b4ebad7ddaacbccf6df</iCalUid>
+<Start>2023-10-29 09:00</Start>
+<End>2023-10-30 12:00</End>
+<Subject><![CDATA[Offline RPP Evaluasi pelatihan by Pa Yus]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="203" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-10-01 16:38:00</Modified>
+<iCalUid>73920184a9784dfb94766377f74dab57</iCalUid>
+<Start>2023-10-11 04:35</Start>
+<End>2023-10-11 06:05</End>
+<Subject><![CDATA[Pak Mifta Rawuh]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="204" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-10-02 08:28:46</Modified>
+<iCalUid>4b644b48422140f9bb3add5fa541327a</iCalUid>
+<Start>2023-10-17 13:30</Start>
+<End>2023-10-17 15:00</End>
+<Subject><![CDATA[OFFLINE RCA Widya & Adith]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+<Event ID="205" Sequence="0" Priority="1" BusyStatus="2" IntendedBusyStatus="2" ReminderSet="1" ReminderMin="30">
+<Modified>2023-10-03 10:32:34</Modified>
+<iCalUid>6f38f68fd37247f78349eb5bf3470bfc</iCalUid>
+<Start>2023-10-26 09:00</Start>
+<End>2023-10-26 10:30</End>
+<Subject><![CDATA[Quality Review KJY]]></Subject>
+<Creator><![CDATA[apermatasari@aio.co.id]]></Creator>
+<Planner><![CDATA[factory.calendar@aio.co.id]]></Planner>
+</Event>
+</Calendar>
