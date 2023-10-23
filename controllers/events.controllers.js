@@ -172,3 +172,21 @@ exports.index_calendar_ho = async (req, res) => {
 	  return res.status(500).json({ error: e.message });
 	}
   };
+exports.index_ho_by_date = async (req, res) => {
+	try {
+	  //
+    const {date} = req.params
+    console.log(date);
+	  const response = await connectMataHo.query("SELECT * FROM mst_calendar_events WHERE CAST(start_time AS DATE) = $date", 
+    {
+      bind: {
+        date: date
+      },
+		type: QueryTypes.SELECT,
+	  });
+	  // const response = { trucking: trucking, arrival: arrival, deliveryDestination: delivery };
+	  res.status(200).json(response);
+	} catch (e) {
+	  return res.status(500).json({ error: e.message });
+	}
+  };

@@ -23,6 +23,7 @@ router.post("/events/:id", eventController.update);
 router.delete("/events/:id", eventController.destroy);
 router.get("/events/test", eventController.test);
 router.get("/events/ho", eventController.index_calendar_ho);
+router.get("/event/ho/:date", eventController.index_ho_by_date);
 
 router.get("/participants", participantsController.index);
 router.post("/participants", participantsController.store);
