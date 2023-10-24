@@ -127,13 +127,6 @@ exports.test = async (req, res) => {
       });
     });
 
-    //   console.log(mrkStart.length);
-    //   console.log(mrkEnd.length);
-    //   console.log(mrkSubject.length);
-    //   console.log(mrkCreator.length);
-    //   console.log(mrkPlanner.length);
-    //   console.log(mrkModified.length);
-    // const response = { trucking: trucking, arrival: arrival, deliveryDestination: delivery };
     console.log(result);
     let response = [];
     await result.forEach((element, i) => {

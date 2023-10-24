@@ -38,5 +38,6 @@ module.exports = {
     host: "192.168.1.195",
     port: "3307",
     dialect: "mysql",
+    timezone: "+07:00",
   },
 };
