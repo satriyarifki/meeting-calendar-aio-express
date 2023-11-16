@@ -7,6 +7,7 @@ const roomsController = require("./../controllers/rooms.controller");
 const authController = require("./../controllers/auth.controllers");
 const employeesController = require("./../controllers/employees.controller");
 const attachmentsController = require("./../controllers/attachments.controller");
+const votesController = require("../controllers/votes.controller");
 
 urlencoded = bodyParser.urlencoded({ extended: false });
 
@@ -40,6 +41,9 @@ router.get("/employees/name-email", employeesController.employeesNameEmail);
 router.get("/attachments", attachmentsController.index);
 router.get("/attachments/:eventId", attachmentsController.getById);
 router.delete("/attachments/:eventId", attachmentsController.destroy);
+
+// -------------------------------> Vote
+router.get("/vote", votesController.index);
 
 
 
