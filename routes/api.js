@@ -8,6 +8,7 @@ const authController = require("./../controllers/auth.controllers");
 const employeesController = require("./../controllers/employees.controller");
 const attachmentsController = require("./../controllers/attachments.controller");
 const votesController = require("../controllers/votes.controller");
+const voteDetailsController = require("../controllers/vote_details.controller");
 
 urlencoded = bodyParser.urlencoded({ extended: false });
 
@@ -44,6 +45,12 @@ router.delete("/attachments/:eventId", attachmentsController.destroy);
 
 // -------------------------------> Vote
 router.get("/vote", votesController.index);
+router.post("/vote", votesController.store);
+
+
+// -------------------------------> Vote Details
+router.get("/vote_details", voteDetailsController.index);
+router.post("/vote_details", voteDetailsController.store);
 
 
 

@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 module.exports = function(sequelize, DataTypes) {
-  return sequelize.define('vote_details', {
+  const Vote_details = sequelize.define('vote_details', {
     voteId: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -17,7 +17,7 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.STRING(50),
       allowNull: false
     },
-    submit: {
+    agree: {
       type: DataTypes.BOOLEAN,
       allowNull: false,
       defaultValue: 0
@@ -41,4 +41,5 @@ module.exports = function(sequelize, DataTypes) {
       },
     ]
   });
+  return Vote_details
 };

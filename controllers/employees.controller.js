@@ -22,11 +22,12 @@ exports.employeesNameEmail = async (req, res) => {
   try {
     let response = [];
     const emp = await connectEmployee.query(
-      "SELECT mail_id,employee_name FROM `aio_employee`.`mst_employment`WHERE is_active = 1 ",
+      "SELECT employee_code,mail_id,employee_name FROM `aio_employee`.`mst_employment`WHERE is_active = 1 ",
       { type: QueryTypes.SELECT }
     );
+    // console.log(emp);
     emp.forEach((element) => {
-      response.push([element.mail_id, element.employee_name]);
+      response.push([element.mail_id, element.employee_name,Number(element.employee_code)]);
     });
     // const emp = await connectEmploye.query('SELECT * FROM `aio_employee`.`mst_employment` LIMIT 20) ', { type: QueryTypes.SELECT });
 
