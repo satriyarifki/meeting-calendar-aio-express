@@ -1,5 +1,8 @@
+'use strict';
 const Sequelize = require('sequelize');
+// const { vote_details,votes } = require('../models');
 module.exports = function(sequelize, DataTypes) {
+  const Votes = sequelize.define('votes', { timestamps: false });
   const Vote_details = sequelize.define('vote_details', {
     voteId: {
       type: DataTypes.INTEGER,
@@ -28,18 +31,10 @@ module.exports = function(sequelize, DataTypes) {
       defaultValue: Sequelize.Sequelize.fn('current_timestamp')
     }
   }, {
-    sequelize,
     tableName: 'vote_details',
     timestamps: false,
-    indexes: [
-      {
-        name: "FK_vote_details_vote",
-        using: "BTREE",
-        fields: [
-          { name: "voteId" },
-        ]
-      },
-    ]
+    
   });
+  Vote_details.belongsTo(Votes);
   return Vote_details
 };

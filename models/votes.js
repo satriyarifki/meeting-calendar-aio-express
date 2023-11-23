@@ -1,5 +1,7 @@
+'use strict';
 const Sequelize = require('sequelize');
 module.exports = function(sequelize, DataTypes) {
+  const Vote_details = sequelize.define('vote_details', { timestamps: false });
   const Vote = sequelize.define('votes', {
     id: {
       autoIncrement: true,
@@ -31,19 +33,10 @@ module.exports = function(sequelize, DataTypes) {
       defaultValue: Sequelize.Sequelize.fn('current_timestamp')
     }
   }, {
-    sequelize,
     tableName: 'votes',
     timestamps: true,
-    indexes: [
-      {
-        name: "PRIMARY",
-        unique: true,
-        using: "BTREE",
-        fields: [
-          { name: "id" },
-        ]
-      },
-    ]
+    
   });
+  Vote.hasMany(Vote_details)
   return Vote
 };

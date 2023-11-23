@@ -49,8 +49,11 @@ router.post("/vote", votesController.store);
 
 
 // -------------------------------> Vote Details
-router.get("/vote_details", voteDetailsController.index);
-router.post("/vote_details", voteDetailsController.store);
+router.get("/vote-details", voteDetailsController.index);
+router.get("/vote-details/:voteId", voteDetailsController.indexByVote);
+router.get("/vote-details/group/:userId", voteDetailsController.indexGroupedByVote);
+router.post("/vote-details", voteDetailsController.store);
+router.put("/vote-details", voteDetailsController.update);
 
 
 
