@@ -1,5 +1,6 @@
 const Validator = require('fastest-validator');
 const v = new Validator();
+const { Sequelize, QueryTypes } = require("sequelize");
 const { vote_details,votes } = require('../models');
 // let { startOfDay, endOfDay, parseISO } = require('date-fns');
 const apiResponse = require('../traits/api-response');
@@ -19,7 +20,7 @@ exports.index = async (req, res) => {
 exports.indexByVote = async (req, res) => {
 	try {
 		const {voteId} = req.params
-		const response = await vote_details.findAll({ attributes: ['voteId','date','userId','agree'],where:{voteId: voteId} });
+		const response = await vote_details.findAll({ attributes: ['voteId','date','userId','agree'],where:{voteId: voteId},order: [[Sequelize.cast(Sequelize.col('userId'), 'INT'),'ASC']] });
 
 		apiResponse.sucess(res, response, 200);
 

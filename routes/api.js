@@ -45,7 +45,10 @@ router.delete("/attachments/:eventId", attachmentsController.destroy);
 
 // -------------------------------> Vote
 router.get("/vote", votesController.index);
+router.get("/vote/:id", votesController.indexById);
+router.get("/vote/user/:userId", votesController.indexByUser);
 router.post("/vote", votesController.store);
+
 
 
 // -------------------------------> Vote Details
