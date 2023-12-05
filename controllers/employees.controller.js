@@ -1,6 +1,30 @@
 const { Sequelize, QueryTypes } = require("sequelize");
 const { connectEmployee } = require("../config/connections");
+const { v_login_aio } = require('../models');
+const apiResponse = require('../traits/api-response');
 
+exports.index = async (req, res) => {
+	try {
+		const response = await v_login_aio.findAll({attributes:{exclude: ['id']}});
+
+		apiResponse.sucess(res, response, 200);
+
+		// });
+	} catch (e) {
+		apiResponse.error(res, e.message, 500);
+	}
+};
+exports.index = async (req, res) => {
+	try {
+		const response = await v_login_aio.findAll({attributes:{exclude: ['id']}});
+
+		apiResponse.sucess(res, response, 200);
+
+		// });
+	} catch (e) {
+		apiResponse.error(res, e.message, 500);
+	}
+};
 exports.employeesEmail = async (req, res) => {
   try {
     let response = [];

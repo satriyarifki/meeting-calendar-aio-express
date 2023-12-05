@@ -9,6 +9,7 @@ const employeesController = require("./../controllers/employees.controller");
 const attachmentsController = require("./../controllers/attachments.controller");
 const votesController = require("../controllers/votes.controller");
 const voteDetailsController = require("../controllers/vote_details.controller");
+const voteTimesController = require("../controllers/vote_times.controller");
 
 urlencoded = bodyParser.urlencoded({ extended: false });
 
@@ -34,6 +35,7 @@ router.delete("/participants/:eventId", participantsController.destroy);
 router.get("/rooms", roomsController.index);
 
 // -------------------------------> Employees
+router.get("/employees", employeesController.index);
 router.get("/employees/email", employeesController.employeesEmail);
 router.get("/employees/m2up", employeesController.employeesM2Up);
 router.get("/employees/name-email", employeesController.employeesNameEmail);
@@ -58,6 +60,9 @@ router.get("/vote-details/group/:userId", voteDetailsController.indexGroupedByVo
 router.post("/vote-details", voteDetailsController.store);
 router.put("/vote-details", voteDetailsController.update);
 
+// -------------------------------> Vote Times
+router.get("/vote-times", voteTimesController.index);
+router.get("/vote-times", voteTimesController.store);
 
 
 module.exports = router;

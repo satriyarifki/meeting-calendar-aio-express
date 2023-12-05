@@ -1,7 +1,7 @@
 //importing modules
 const bcrypt = require("bcrypt");
 const { Sequelize, QueryTypes } = require("sequelize");
-const { users } = require("./../models");
+const { users, v_login_aio } = require("../models");
 const jwt = require("jsonwebtoken");
 const apiResponse = require("./../traits/api-response");
 var crypto = require("crypto-js");
@@ -43,32 +43,35 @@ const signup = async (req, res) => {
 };
 
 //login authentication
-const testi = async (req, res) => {
-  try {
-    res.setHeader("Content-Type", "application/json");
-    const email = req.body.email;
-    apiResponse.sucess(res, email, 200);
-  } catch (e) {
-    apiResponse.error(res, e.message, 500);
-  }
-  // const response = await users.findAll({ where: { email: 'sample@gmail.com' } });
-};
+// const testi = async (req, res) => {
+//   try {
+//     res.setHeader("Content-Type", "application/json");
+//     const email = req.body.email;
+//     apiResponse.sucess(res, email, 200);
+//   } catch (e) {
+//     apiResponse.error(res, e.message, 500);
+//   }
+//   // const response = await users.findAll({ where: { email: 'sample@gmail.com' } });
+// };
 
 const login = async (req, res) => {
   try {
-    const { email, password } = req.body;
-
-    //find a user by their email
-    const user = await users.findOne({
+    const { nik, password } = req.body;
+    //find a user by their lg_nik
+    const user = await v_login_aio.findOne({
+      attributes: {
+        exclude: ['id']
+      },
       where: {
-        email: email,
+        lg_nik: nik,
+        lg_aktif: 1
       },
     });
 
     //if user email is found, compare password with bcrypt
     if (user) {
       const isSame = await bcrypt.compare(password, user.password);
-
+      console.log(isSame);
       //if password is the same
       //generate token with the user's id and the secretKey in the env file
 
@@ -89,6 +92,7 @@ const login = async (req, res) => {
       apiResponse.error(res, "Authentication failed", 401);
     }
   } catch (e) {
+    console.log(e);
     apiResponse.error(res, e.message, 500);
   }
 };
@@ -98,25 +102,30 @@ const signin = async (req, res) => {
     const { nik, password } = req.body;
     console.log(req.body);
     //find a user by their email
-    const user = await connectEmployee.query(
-      "SELECT * FROM `aio_employee`.`php_ms_login` WHERE `lg_nik` = $nik AND lg_aktif = '1' LIMIT 1",
-      { bind: { nik: nik }, type: QueryTypes.SELECT }
-    );
-    // const c = { data: 0 };
-    // if (hash == user[0].lg_password) {
-    //   c.data = 2;
-    // }
-    console.log(user);
+    // const user = await connectEmployee.query(
+    //   "SELECT * FROM `aio_employee`.`php_ms_login` WHERE `lg_nik` = $nik AND lg_aktif = '1' LIMIT 1",
+    //   { bind: { nik: nik }, type: QueryTypes.SELECT }
+    // );
+    const user = await v_login_aio.findOne({
+      attributes: {
+        exclude: ['id']
+      },
+      where: {
+        lg_nik: nik,
+        lg_aktif: 1
+      },
+    });
+    // console.log(user);
     //if user email is found, compare password with bcrypt
-    if (user[0]) {
+    if (user) {
       let hash = crypto.MD5(password).toString();
-      console.log(hash + " = " + user[0].lg_password);
+      console.log(hash + " = " + user.lg_password);
 
       //if password is the same
       //generate token with the user's id and the secretKey in the env file
 
-      if (user[0].lg_password == hash) {
-        let token = jwt.sign({ id: user[0].lg_nik }, process.env.secretKey, {
+      if (user.lg_password == hash) {
+        let token = jwt.sign({ id: user.lg_nik }, process.env.secretKey, {
           expiresIn: 1 * 24 * 60 * 60 * 1000,
         });
 
@@ -139,6 +148,5 @@ const signin = async (req, res) => {
 module.exports = {
   signup,
   login,
-  testi,
   signin,
 };
