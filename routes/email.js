@@ -69,7 +69,7 @@ router.post("/send", async (req, res, next) => {
     to: req.body.participants, // list of receivers
     subject: "AIO Meeting Invitation ", // Subject line
     // html: '<b>' + req.body.message + '</b>', // html body
-    // text: req.body.message, // plain text body
+    text: req.body.message, // plain text body
     icalEvent: {
       filename: "invitation.ics",
       // method: "request",

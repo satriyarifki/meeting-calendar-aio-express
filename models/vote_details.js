@@ -4,6 +4,7 @@ const Sequelize = require('sequelize');
 module.exports = function(sequelize, DataTypes) {
   const Votes = sequelize.define('votes', { timestamps: false });
   const Vote_time =  sequelize.define('vote_times', {timestamps:false})
+  const Vote_parcitipant =  sequelize.define('vote_parcitipants', {timestamps:false})
   const Vote_details = sequelize.define('vote_details', {
     id: {
       autoIncrement: true,
@@ -27,11 +28,6 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.STRING(50),
       allowNull: false
     },
-    agree: {
-      type: DataTypes.BOOLEAN,
-      allowNull: false,
-      defaultValue: 0
-    },
     updatedAt: {
       type: DataTypes.DATE,
       allowNull: false,
@@ -44,5 +40,6 @@ module.exports = function(sequelize, DataTypes) {
   });
   Vote_details.belongsTo(Votes);
   Vote_details.hasMany(Vote_time);
+  Vote_details.hasMany(Vote_parcitipant);
   return Vote_details
 };

@@ -2,6 +2,7 @@ var express = require("express");
 var router = express();
 multer = require("multer");
 const { attachments } = require("./../models");
+const ics = require("ics");
 const nodemailer = require("nodemailer");
 const apiResponse = require("./../traits/api-response");
 // const upload = multer({ dest: './public/data/uploads/' })
@@ -22,13 +23,13 @@ let upload = multer({
 
 router.post("/", upload.single("files"), async function (req, res) {
   try {
+    console.log(req.file);
     if (!req.file) {
-      console.log(req.file);
       console.log(req.body);
       console.log("No file is available!");
       return res.status(404).send("No FOund");
     } else {
-      console.log("File is available!");
+      // console.log("File is available!");
 
       const body = {
         eventId: req.body.dataId,
@@ -49,7 +50,47 @@ router.post("/", upload.single("files"), async function (req, res) {
           "sizeBytes",
         ],
       });
-      console.log(req.body);
+      // console.log(req.body);
+      const event = {
+        start: [
+          req.body.year,
+          req.body.month,
+          req.body.day,
+          req.body.hour_start,
+          req.body.minute_start,
+        ],
+        end: [
+          req.body.year,
+          req.body.month,
+          req.body.day,
+          req.body.hour_end,
+          req.body.minute_end,
+        ],
+        // duration: { hours: 2 },
+        title: req.body.title,
+        description: req.body.message,
+        // status: "CONFIRMED",
+        location: "Otsuka",
+        // method: "REQUEST",
+        alarms: [
+          {
+            action: "display",
+            description: "Reminder",
+            trigger: { hours: 1, minutes: 30, before: true },
+          },
+        ],
+        organizer: { name: req.body.organizer, email: req.body.organizer },
+        // attendees: participants,
+      };
+      let eventIcs;
+      ics.createEvent(event, (err, value) => {
+        if (err) {
+          console.log(err);
+          return;
+        }
+        eventIcs = value;
+        // console.log(String(value));
+      });
       if (req.body.date != null) {
         let transporter = nodemailer.createTransport({
           // service: 'gmail',
@@ -62,7 +103,7 @@ router.post("/", upload.single("files"), async function (req, res) {
           },
           from: "appskjy@aio.co.id",
         });
-        console.log(req.body.participants);
+        // console.log(req.body.participants);
         var mail = {
           // sender address
           from: req.body.organizer + "<appskjy@aio.co.id>",
@@ -77,6 +118,14 @@ router.post("/", upload.single("files"), async function (req, res) {
               path: req.file.path, // stream this file
             },
           ],
+          icalEvent: {
+            filename: "invitation.ics",
+            // method: "request",
+            // contentType: "text/calendar",
+            // encoding: 'base64',
+            // contentDisposition: 'attachment',
+            content: eventIcs,
+          },
         };
 
         // send mail with defined transport object
@@ -96,6 +145,7 @@ router.post("/", upload.single("files"), async function (req, res) {
         .send({ file: req.file, resAttach: response, mail: req.body.mail });
     }
   } catch (err) {
+    console.log(err);
     apiResponse.error(res, err.message, 500);
   }
 });
