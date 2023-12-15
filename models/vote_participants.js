@@ -1,7 +1,13 @@
 const Sequelize = require('sequelize');
 module.exports = function(sequelize, DataTypes) {
-  const Vote_details = sequelize.define('vote_details', {timestamps :false})
+  const Vote = sequelize.define('votes', {timestamps :false})
   const Vote_participants = sequelize.define('vote_participants', {
+    id: {
+      autoIncrement: true,
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true
+    },
     voteId: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -28,6 +34,6 @@ module.exports = function(sequelize, DataTypes) {
       },
     ]
   });
-  Vote_participants.belongsTo(Vote_details);
+  Vote_participants.belongsTo(Vote);
   return Vote_participants
 };

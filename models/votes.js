@@ -15,7 +15,7 @@ module.exports = function(sequelize, DataTypes) {
     },
     desc: {
       type: DataTypes.STRING(50),
-      allowNull: false
+      allowNull: true
     },
     userId: {
       type: DataTypes.STRING(50),

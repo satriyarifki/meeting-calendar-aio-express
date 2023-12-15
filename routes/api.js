@@ -10,6 +10,7 @@ const attachmentsController = require("./../controllers/attachments.controller")
 const votesController = require("../controllers/votes.controller");
 const voteDetailsController = require("../controllers/vote_details.controller");
 const voteTimesController = require("../controllers/vote_times.controller");
+const voteParticipantsController = require("../controllers/vote_participants.controller");
 
 urlencoded = bodyParser.urlencoded({ extended: false });
 
@@ -46,7 +47,7 @@ router.get("/attachments/:eventId", attachmentsController.getById);
 router.delete("/attachments/:eventId", attachmentsController.destroy);
 
 // -------------------------------> Vote
-router.get("/vote", votesController.index);
+router.get("/votes", votesController.index);
 router.get("/vote/:id", votesController.indexById);
 router.get("/vote/user/:userId", votesController.indexByUser);
 router.post("/vote", votesController.store);
@@ -56,7 +57,8 @@ router.post("/vote", votesController.store);
 // -------------------------------> Vote Details
 router.get("/vote-details", voteDetailsController.index);
 router.get("/vote-details/:voteId", voteDetailsController.indexByVote);
-router.get("/vote-details/group/:userId", voteDetailsController.indexGroupedByVote);
+router.get("/vote-details/group-vote/:voteId", voteDetailsController.indexGroupedByVote);
+router.get("/vote-details/group/:userId", voteDetailsController.indexGroupedByUser);
 router.post("/vote-details", voteDetailsController.store);
 router.put("/vote-details", voteDetailsController.update);
 
@@ -64,5 +66,8 @@ router.put("/vote-details", voteDetailsController.update);
 router.get("/vote-times", voteTimesController.index);
 router.get("/vote-times", voteTimesController.store);
 
+//--------------------------------> Vote Participants
+router.get("/vote-participants", voteParticipantsController.index);
+router.post("/vote-participants", voteParticipantsController.store);
 
 module.exports = router;
