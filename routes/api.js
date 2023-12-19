@@ -64,7 +64,8 @@ router.put("/vote-details", voteDetailsController.update);
 
 // -------------------------------> Vote Times
 router.get("/vote-times", voteTimesController.index);
-router.get("/vote-times", voteTimesController.store);
+router.post("/vote-times", voteTimesController.store);
+router.put("/vote-times", voteTimesController.update);
 
 //--------------------------------> Vote Participants
 router.get("/vote-participants", voteParticipantsController.index);

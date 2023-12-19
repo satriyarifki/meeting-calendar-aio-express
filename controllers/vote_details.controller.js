@@ -10,7 +10,7 @@ exports.index = async (req, res) => {
   try {
     const response = await vote_details.findAll({
 	  where: { voteId: voteId },
-      attributes: ["voteId", "date", "userId"],
+      attributes: ["id","voteId", "date", "userId"],
       include: [{ model: votes }],
     });
 
@@ -25,7 +25,7 @@ exports.indexByVote = async (req, res) => {
   try {
     const { voteId } = req.params;
     const response = await vote_details.findAll({
-      attributes: ["voteId", "date", "userId"],
+      attributes: ["id","voteId", "date", "userId"],
       where: { voteId: voteId },
       order: [[Sequelize.cast(Sequelize.col("userId"), "INT"), "ASC"]],
 	  include: [{model:vote_times}]
@@ -42,7 +42,7 @@ exports.indexGroupedByVote = async (req, res) => {
   try {
     const { voteId } = req.params;
     const response = await vote_details.findAll({
-      attributes: ["voteId", "date", "userId"],
+      attributes: ["id","voteId", "date", "userId"],
       where: { voteId: voteId },
       order: [[Sequelize.cast(Sequelize.col("userId"), "INT"), "ASC"]],
       group: ["date", "userId"],
@@ -60,7 +60,7 @@ exports.indexGroupedByUser = async (req, res) => {
   try {
     const { userId } = req.params;
     const response = await vote_details.findAll({
-      attributes: ["voteId", "date", "userId"],
+      attributes: ["id","voteId", "date", "userId"],
       where: { userId: userId },
     //   group: ["voteId"],
       include: [{ model: votes }],

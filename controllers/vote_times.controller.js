@@ -51,7 +51,8 @@ exports.store = async (req, res) => {
 		// console.log(req.body);
 		let response = [] 
 		data.forEach(elem => {
-			response.push(vote_times.update(elem, { fields: ['agree'], where: {voteDetailId :elem.voteDetailId, date:elem.date,userId:elem.userId}})) 
+
+			response.push(vote_times.update(elem, { fields: ['agree'], where: {id :elem.id}})) 
 		});
 	//   const response = await vote_details.create(req.body);
   
