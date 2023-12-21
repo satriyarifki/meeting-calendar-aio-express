@@ -51,6 +51,7 @@ router.get("/votes", votesController.index);
 router.get("/vote/:id", votesController.indexById);
 router.get("/vote/user/:userId", votesController.indexByUser);
 router.post("/vote", votesController.store);
+router.delete("/vote/:id", votesController.destroy);
 
 
 

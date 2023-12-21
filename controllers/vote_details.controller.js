@@ -62,7 +62,7 @@ exports.indexGroupedByUser = async (req, res) => {
     const response = await vote_details.findAll({
       attributes: ["id","voteId", "date", "userId"],
       where: { userId: userId },
-    //   group: ["voteId"],
+      group: ["voteId"],
       include: [{ model: votes }],
     });
 
@@ -123,3 +123,5 @@ exports.update = async (req, res) => {
     apiResponse.error(res, e.message, 500);
   }
 };
+
+
