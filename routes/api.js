@@ -11,6 +11,7 @@ const votesController = require("../controllers/votes.controller");
 const voteDetailsController = require("../controllers/vote_details.controller");
 const voteTimesController = require("../controllers/vote_times.controller");
 const voteParticipantsController = require("../controllers/vote_participants.controller");
+const holidaysController = require("../controllers/holidays.controller");
 
 urlencoded = bodyParser.urlencoded({ extended: false });
 
@@ -20,6 +21,11 @@ router.get("/", function (req, res, next) {
 });
 // router.post('/signin', authController.login);
 
+// Holiday
+router.get("/holiday", holidaysController.index);
+router.get("/holiday/:year/:month", holidaysController.byMonthYear);
+
+// EVENT
 router.get("/events", eventController.index);
 router.post("/events", eventController.store);
 router.get("/events/:from/:to", eventController.dateRange);
@@ -32,6 +38,7 @@ router.get("/event/ho/:date", eventController.index_ho_by_date);
 router.get("/participants", participantsController.index);
 router.post("/participants", participantsController.store);
 router.delete("/participants/:eventId", participantsController.destroy);
+
 
 router.get("/rooms", roomsController.index);
 
