@@ -1,0 +1,101 @@
+[
+  { "tanggal": "2023-01-1", "keterangan": "Tahun Baru 2023", "cuti": false },
+  {
+    "tanggal": "2023-01-22",
+    "keterangan": "Tahun Baru Imlek 2574 Kongzili",
+    "cuti": false
+  },
+  { "tanggal": "2023-01-23", "keterangan": "Cuti Bersama Imlek", "cuti": true },
+  {
+    "tanggal": "2023-02-18",
+    "keterangan": "Isra' Mi'raj Nabi Muhammad SAW",
+    "cuti": false
+  },
+  {
+    "tanggal": "2023-03-22",
+    "keterangan": "Hari Raya Nyepi 1945",
+    "cuti": false
+  },
+  { "tanggal": "2023-03-23", "keterangan": "Cuti Bersama Nyepi", "cuti": true },
+  { "tanggal": "2023-04-7", "keterangan": "Wafat Isa Al Masih", "cuti": false },
+  {
+    "tanggal": "2023-04-19",
+    "keterangan": "Cuti Bersama Idul Fitri",
+    "cuti": true
+  },
+  {
+    "tanggal": "2023-04-20",
+    "keterangan": "Cuti Bersama Idul Fitri",
+    "cuti": true
+  },
+  {
+    "tanggal": "2023-04-21",
+    "keterangan": "Cuti Bersama Idul Fitri",
+    "cuti": true
+  },
+  { "tanggal": "2023-04-22", "keterangan": "Idul Fitri 1444 H", "cuti": false },
+  { "tanggal": "2023-04-23", "keterangan": "Idul Fitri 1444 H", "cuti": false },
+  {
+    "tanggal": "2023-04-24",
+    "keterangan": "Cuti Bersama Idul Fitri",
+    "cuti": true
+  },
+  {
+    "tanggal": "2023-04-25",
+    "keterangan": "Cuti Bersama Idul Fitri",
+    "cuti": true
+  },
+  {
+    "tanggal": "2023-05-1",
+    "keterangan": "Hari Buruh Internasional",
+    "cuti": false
+  },
+  {
+    "tanggal": "2023-05-18",
+    "keterangan": "Kenaikan Isa Al Masih",
+    "cuti": false
+  },
+  {
+    "tanggal": "2023-06-1",
+    "keterangan": "Hari Lahir Pancasila",
+    "cuti": false
+  },
+  { "tanggal": "2023-06-2", "keterangan": "Cuti Bersama Waisak", "cuti": true },
+  {
+    "tanggal": "2023-06-4",
+    "keterangan": "Hari Raya Waisak 2567",
+    "cuti": false
+  },
+  {
+    "tanggal": "2023-06-28",
+    "keterangan": "Cuti Bersama Idul Adha",
+    "cuti": true
+  },
+  {
+    "tanggal": "2023-06-29",
+    "keterangan": "Hari Raya Idul Adha 1444 H",
+    "cuti": false
+  },
+  {
+    "tanggal": "2023-06-30",
+    "keterangan": "Cuti Bersama Idul Adha",
+    "cuti": true
+  },
+  {
+    "tanggal": "2023-07-19",
+    "keterangan": "Tahun Baru Islam 1445 H",
+    "cuti": false
+  },
+  {
+    "tanggal": "2023-08-17",
+    "keterangan": "Hari Kemerdekaan Republik Indonesia ke 78",
+    "cuti": false
+  },
+  {
+    "tanggal": "2023-09-28",
+    "keterangan": "Maulid Nabi Muhammad SAW",
+    "cuti": false
+  },
+  { "tanggal": "2023-12-25", "keterangan": "Hari Raya Natal", "cuti": false },
+  { "tanggal": "2023-12-26", "keterangan": "Cuti Bersama Natal", "cuti": true }
+]

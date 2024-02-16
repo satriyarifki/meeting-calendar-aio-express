@@ -26,14 +26,14 @@ router.post("/send", async (req, res, next) => {
   const event = {
     start: [
       req.body.year,
-      req.body.month,
+      req.body.month+1,
       req.body.day,
       req.body.hour_start,
       req.body.minute_start,
     ],
     end: [
       req.body.year,
-      req.body.month,
+      req.body.month+1,
       req.body.day,
       req.body.hour_end,
       req.body.minute_end,
@@ -61,7 +61,7 @@ router.post("/send", async (req, res, next) => {
       return;
     }
     eventIcs = value;
-    console.log(String(value));
+    // console.log(String(value));
   });
   var mail = {
     // sender address

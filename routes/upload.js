@@ -25,7 +25,7 @@ router.post("/", upload.single("files"), async function (req, res) {
   try {
     console.log(req.file);
     if (!req.file) {
-      console.log(req.body);
+      // console.log(req.body);
       console.log("No file is available!");
       return res.status(404).send("No FOund");
     } else {

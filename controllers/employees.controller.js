@@ -73,7 +73,7 @@ exports.employeesM2Up = async (req, res) => {
   try {
     let response = [];
     const emp = await connectEmployee.query(
-      "SELECT e.grade_id, e.employee_name,e.mail_id, e.org_locn_work_desc, e.position_desc, e.job_grade_code,e.date_of_birth, e.date_of_join FROM `aio_employee`.`mst_employment` AS e INNER JOIN `aio_employee`.`mst_grade` AS g ON e.grade_id = g.id WHERE g.`level` <= 4 ",
+      "SELECT e.grade_id, e.employee_name,e.mail_id, e.org_locn_work_desc, e.position_desc, e.job_grade_code,e.date_of_birth, e.date_of_join FROM `aio_employee`.`mst_employment` AS e INNER JOIN `aio_employee`.`mst_grade` AS g ON e.grade_id = g.id WHERE g.`level` <= 4  AND e.is_active = 1",
       { type: QueryTypes.SELECT }
     );
     // emp.forEach((element) => {

@@ -22,7 +22,7 @@ router.get("/", function (req, res, next) {
 // router.post('/signin', authController.login);
 
 // Holiday
-router.get("/holiday", holidaysController.index);
+router.get("/holiday/:year", holidaysController.index);
 router.get("/holiday/:year/:month", holidaysController.byMonthYear);
 
 // EVENT
